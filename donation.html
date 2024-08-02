@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="">WORK</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="donation.html">DONATION</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   <h1>Donation</h1>
+        </section>
+
+<!-------donation page----------->
+<section class="donate">
+    <h2>Donation portal</h2>
+    <p>"Your donation transforms lives, ignites hope,
+         and builds a better future. Every contribution makes a difference. Thank you for your support."</p>
+<section class="donation">
+    
+    <h4>Select gift frequency</h4>
+    <div class="time">
+        <span>Monthly</span>
+        <span>Onetime</span>
+    </div>
+    <br>
+    <br>
+    <label>Select amount</label>
+    <br>
+    <br>
+    <div class="value">
+        <span class="money">$12</span>
+        <span class="money">$30</span>
+        <span class="money">$40</span>
+        <span class="money">$50</span>
+        <span class="money">$60</span>
+    </div>
+
+    <div class="confirm">
+        <input type="checkbox" name="" id="">
+        <span>Yes'll generously add $0.30 each month to cover the transaction</span>
+    </div>
+
+    <div class="input">
+       <label>Name</label>
+        <input type="text" name="" id="" placeholder="Enter your name" required>
+         <br>
+         <br>
+        <label>Email</label>
+        <input type="text" placeholder="Enter your email" required>
+    </div>
+    <p>Give in honor to another person</p>
+
+    <button>Donate now</button>
+
+    <p>By donating, you agree to our <span class="blue">terms of services</span> and <span class="blue">privacy policy</span></p>
+    
+</section>
+</section>
+
+
+ <!-- javascript for toggle menu-->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+
+
+
+
+
+<!--footer-->
+<section class="footer">
+    <h2>About us</h2>
+    <p>Thank you for visiting our website and supporting our mission to eradicate poverty. Together, <br> we can make 
+        a lasting impact and create a brighter future for everyone.
+    </p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-youtube"></i>
+    
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Khalsa College Team </p>
+
+</section>   
+ 
+
+
+
+
+    
+</body>
+</html>
